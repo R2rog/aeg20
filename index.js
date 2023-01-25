@@ -50,9 +50,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static(join(__dirname,'public')));
 
-app.get('/', (req, res) =>{
-    res.status(200).send("All good to go!")
-})
 app.listen(port,()=>{
     console.log(`Server listening on port ${port}`)
 })

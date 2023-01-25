@@ -154,16 +154,14 @@
                 <ul class="nav nav-tabs" id="lenoTabs" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab"
-                            aria-controls="tab-1" aria-selected="true"><i class="fas fa-cog"></i>REFACCIONARIA</a>
+                            aria-controls="tab-1" aria-owns="tab-1" aria-selected="true" aria-roledescription="slide">
+                        <i class="fas fa-cog"></i>REFACCIONARIA</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab"
-                            aria-controls="tab-2" aria-selected="false"><i class="fas fa-wrench"></i>TALLLER</a>
+                            aria-controls="tab-2" aria-owns="tab-2" aria-selected="false" aria-roledescription="slide">
+                        <i class="fas fa-wrench"></i>TALLLER</a>
                     </li>
-                    <!--li class="nav-item">
-                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab"
-                            aria-controls="tab-3" aria-selected="false"><i class="fas fa-compass"></i>OTROS SERVICIOS</a>
-                    </li-->
                 </ul>
                 <!-- end of tabs links -->
 
@@ -551,6 +549,7 @@
                                                     718 4583</span></a>
                                         </li>
                                         <li class="address">Envíanos un correo: </li>
+                                        <li style="font-size:1.5rem;">aguevarasa@yahoo.com.mx</li>
                                     </ul>
                                 </div> <!-- end of col -->
                             </div> <!-- end of row -->
@@ -583,8 +582,8 @@
                             <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">Lea nuestros <a class="turquoise"
-                                        href="terms-conditions.html">Términos y condiciones</a>, <a class="turquoise"
-                                        href="privacy-policy.html">Política de privacidad</a></div>
+                                        href="tos.html">Términos y condiciones</a>, <a class="turquoise"
+                                        href="privacy.html">Política de privacidad</a></div>
                             </li>
                         </ul>
                     </div>
@@ -593,15 +592,9 @@
                     <div class="footer-col last">
                         <h4>Social Media</h4>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.facebook.com/Autoelectrica-Guevara-SA-de-CV-374653962888632">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x" style="font-size:2rem; margin-left: 1.25rem;"></i>
                             </a>
                         </span>
                     </div>
@@ -625,7 +618,7 @@
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
     <!--Messenger plugin start-->
-    <!-- Load Facebook SDK for JavaScript -->
+    <!-- Load Facebook SDK for JavaScript >
     <div id="fb-root"></div>
     <script>
         window.fbAsyncInit = function () {
@@ -641,22 +634,22 @@
             js = d.createElement(s); js.id = id;
             js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));</script-->
 
-    <!-- Your Chat Plugin code -->
+    <!-- Your Chat Plugin code >
     <div class="fb-customerchat" attribution=setup_tool page_id="374653962888632" theme_color="#233368"
         logged_in_greeting="Hola ¿en qué podemos ayudarte?"
         logged_out_greeting="Muchas gracias por comunicarte con nosotros">
-    </div>
+    </div-->
 
-    <!-- Preloader -->
+    <!-- Preloader >
     <div class="spinner-wrapper">
         <div class="spinner">
             <div class="bounce1"></div>
             <div class="bounce2"></div>
             <div class="bounce3"></div>
         </div>
-    </div>
+    </div-->
     <!-- end of preloader -->
     <!--Messenger chat plugin end-->
 
@@ -670,12 +663,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!--jQuery for Bootstrap's JavaScript plugins-->
     <!--script src="js/popper.min.js"></script> <Popper tooltip library for Bootstrap-->
-    <script src="/js/bootstrap.min.js"></script> <!--Bootstrap framework -->
+    <script src="/js/bootstrap.min.js"></script> 
+    <!--Bootstrap framework -->
     <script src="/js/jquery.easing.min.js"></script>
     <!--jQuery Easing for smooth scrolling between anchors-->
     <!--script src="js/swiper.min.js"></script> <Swiper for image and text sliders-->
     <script src="/js/jquery.magnific-popup.js"></script>
-    <Magnific Popup for lightboxes-->
+    <!--Magnific Popup for lightboxes-->
         <!--script src="js/morphext.min.js"></script> <Morphtext rotating text in the header-->
         <!--script src="js/validator.min.js"></script> <-Validator.js - Bootstrap plugin that validates form-->
     <script src="/js/scripts.js"></script>
