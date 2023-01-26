@@ -268,7 +268,7 @@ const DOMPurify = require('dompurify');
     });
 
 
-    /* Contact Form */
+    /* Contact Form 
     $("#contactForm").validator().on("submit", function(event) {
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
@@ -279,7 +279,7 @@ const DOMPurify = require('dompurify');
             event.preventDefault();
             csubmitForm();
         }
-    });
+    });*/   
 
     function csubmitForm() {
         // initiate variables with form content
@@ -325,7 +325,7 @@ const DOMPurify = require('dompurify');
     }
 
 
-    /* Privacy Form */
+    /* Privacy Form 
     $("#privacyForm").validator().on("submit", function(event) {
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
@@ -379,7 +379,7 @@ const DOMPurify = require('dompurify');
             var msgClasses = "h3 text-center";
         }
         $("#pmsgSubmit").removeClass().addClass(msgClasses).text(msg);
-    }
+    }*/
     
 
     /* Back To Top Button */

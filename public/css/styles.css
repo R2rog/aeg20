@@ -316,7 +316,7 @@ select {
 	-ms-appearance: none;
     -o-appearance: none;
     appearance: none;
-    background-image: url('../images/down-arrow.png');
+    /*background-image: url('../images/down-arrow.png');*/
     background-position: 96% 50%;
     background-repeat: no-repeat;
     outline: none;
@@ -850,7 +850,6 @@ input[type='checkbox'] {
 .slider-1 .testimonial-author {
 	margin-bottom: 0;
 }
-
 
 /************************/
 /*     05. Features     */
@@ -1447,7 +1446,7 @@ a.back-to-top {
 	width: 0px;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;
+	/*background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;*/
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -2204,6 +2203,17 @@ img {vertical-align: middle;}
   animation-duration: 2.5s;
 }
 
+.card-header{
+	color: black;
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+.card-header-light{
+	color: white;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
