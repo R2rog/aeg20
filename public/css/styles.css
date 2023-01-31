@@ -1658,7 +1658,7 @@ a:hover.back-to-top {
 	}
 
 	.tabs #tab-2 .icon-cards-area .card {
-		display: inline-block;
+		display: table-cell;
 		width: 44%;
 		margin-right: 2.5rem;
 		vertical-align: top;
@@ -1840,7 +1840,7 @@ a:hover.back-to-top {
 
 	/* Features */
 	.tabs .card-body {
-		padding: 2rem 0 0rem 0;
+		/*padding: 2rem 0 0rem 0;*/
 	}
 	
 	.tabs #tab-1 .card.left-pane {
@@ -2082,7 +2082,6 @@ a:hover.back-to-top {
 
 	/* Details 1 */
 	.basic-2 .text-container {
-		margin-top: 4.5rem;
 		margin-left: 4rem;
 		margin-right: 1.5rem;
 	}
